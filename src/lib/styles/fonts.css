@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Montez';
+  src: url('/assets/fonts/Montez-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  src: url('/assets/fonts/NunitoSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  src: url('/assets/fonts/NunitoSans-Italic.ttf') format('truetype');
+}

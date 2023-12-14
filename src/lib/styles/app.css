@@ -1,0 +1,47 @@
+:root {
+  /** Color palette */
+  --color-brand: rgb(190, 52, 85);
+  --color-link: var(--color-brand);
+
+  /** Fonts */
+  --base-font: 'Nunito Sans';
+  --logo-font: 'Montez';
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--base-font), system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: var(--font-size);
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+#content {
+  display: contents;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--color-brand);
+}
+
+/** Logo */
+.logo {
+  color: var(--color-brand);
+  font-family: var(--logo-font);
+}
