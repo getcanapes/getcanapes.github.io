@@ -74,9 +74,3 @@ a {
 a:hover {
   color: var(--color-brand);
 }
-
-/** Logo */
-.logo {
-  color: var(--color-brand);
-  font-family: var(--logo-font);
-}
