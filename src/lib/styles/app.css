@@ -4,6 +4,7 @@
   --color-link: var(--color-brand);
   --color-text: rgb(26, 26, 36);
   --color-background: rgb(255, 255, 255);
+  --color-border: rgb(0 0 0 / 8%);
 
   /** Fonts */
   --base-font: 'Nunito Sans';
@@ -37,6 +38,9 @@
   /** Layout */
   --max-content-width: calc(1280px - var(--screen-offset));
   --screen-offset: calc(var(--spacing) * 2);
+
+  /** Navigation */
+  --navigation-width: 240px;
 }
 
 body {

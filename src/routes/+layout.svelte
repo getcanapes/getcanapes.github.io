@@ -9,3 +9,9 @@
 <main>
   <slot />
 </main>
+
+<style>
+  main {
+    margin-left: var(--navigation-width);
+  }
+</style>
