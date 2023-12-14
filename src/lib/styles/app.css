@@ -2,10 +2,41 @@
   /** Color palette */
   --color-brand: rgb(190, 52, 85);
   --color-link: var(--color-brand);
+  --color-text: rgb(26, 26, 36);
+  --color-background: rgb(255, 255, 255);
 
   /** Fonts */
   --base-font: 'Nunito Sans';
   --logo-font: 'Montez';
+
+  /** Typography */
+  --font-size-tiny: 0.8rem;
+  --font-size-small: 0.9rem;
+  --font-size: 1rem;
+  --font-size-large: 1.15rem;
+  --font-size-huge: 1.4rem;
+
+  --font-weight: 400;
+  --font-weight-bold: 600;
+
+  /** Border */
+  --border-color: var(--color-border);
+  --border-width: 1px;
+  --border-style: solid;
+  --border-radius-small: 4px;
+  --border-radius: 12px;
+
+  /** Spacings */
+  --spacing-micro: calc(var(--spacing) / 8);
+  --spacing-tiny: calc(var(--spacing) / 4);
+  --spacing-small: calc(var(--spacing) / 2);
+  --spacing: 0.8rem;
+  --spacing-large: calc(var(--spacing) * 2);
+  --spacing-huge: calc(var(--spacing) * 4);
+
+  /** Layout */
+  --max-content-width: calc(1280px - var(--screen-offset));
+  --screen-offset: calc(var(--spacing) * 2);
 }
 
 body {
