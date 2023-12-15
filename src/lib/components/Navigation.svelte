@@ -104,7 +104,7 @@
   .navigation__logo {
     color: var(--color-brand);
     font-family: var(--logo-font);
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
   }
 
