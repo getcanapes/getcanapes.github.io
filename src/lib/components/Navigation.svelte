@@ -1,5 +1,5 @@
 <script lang="ts">
-
+  import { page } from '$app/stores'
 </script>
 
 <aside class="navigation">
@@ -10,34 +10,70 @@
     <div class="navigation__section">
       <h3 class="navigation__subline">Getting Started</h3>
       <ul class="navigation__items">
-        <li class="navigation__item">Home</li>
-        <li class="navigation__item">Installation</li>
-        <li class="navigation__item">Usage</li>
+        <li class="navigation__item">
+          <a href="/" class="navigation__link" class:active={$page.url.pathname === '/'}>Home</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/installation" class="navigation__link" class:active={$page.url.pathname === '/installation'}>Installation</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/usage" class="navigation__link" class:active={$page.url.pathname === '/usage'}>Usage</a>
+        </li>
       </ul>
     </div>
     <div class="navigation__section">
       <h3 class="navigation__subline">Customization</h3>
       <ul class="navigation__items">
-        <li class="navigation__item">Design Tokens</li>
-        <li class="navigation__item">Color Schemes</li>
-        <li class="navigation__item">Component Styles</li>
+        <li class="navigation__item">
+          <a href="/customization/design-tokens" class="navigation__link" class:active={$page.url.pathname === '/customization/design-tokens'}>Design Tokens</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/customization/color-schemes" class="navigation__link" class:active={$page.url.pathname === '/customization/color-schemes'}>Color Schemes</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/customization/component-styles" class="navigation__link" class:active={$page.url.pathname === '/customization/component-styles'}>Component Styles</a>
+        </li>
       </ul>
     </div>
     <div class="navigation__section">
       <h3 class="navigation__subline">Components</h3>
       <ul class="navigation__items">
-        <li class="navigation__item">Badge</li>
-        <li class="navigation__item">Breadcrumb</li>
-        <li class="navigation__item">Breadcrumb Item</li>
-        <li class="navigation__item">Button</li>
-        <li class="navigation__item">Details</li>
-        <li class="navigation__item">Icon</li>
-        <li class="navigation__item">Progress Bar</li>
-        <li class="navigation__item">QR Code</li>
-        <li class="navigation__item">Relative Time</li>
-        <li class="navigation__item">Shortened Text</li>
-        <li class="navigation__item">Skeleton</li>
-        <li class="navigation__item">Stage</li>
+        <li class="navigation__item">
+          <a href="/components/badge" class="navigation__link" class:active={$page.url.pathname === '/components/badge'}>Badge</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/components/breadcrumb" class="navigation__link" class:active={$page.url.pathname === '/components/breadcrumb'}>Breadcrumb</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/components/breadcrumb-item" class="navigation__link" class:active={$page.url.pathname === '/components/breadcrumb-item'}>Breadcrumb Item</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/components/button" class="navigation__link" class:active={$page.url.pathname === '/components/button'}>Button</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/components/details" class="navigation__link" class:active={$page.url.pathname === '/components/details'}>Details</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/components/icon" class="navigation__link" class:active={$page.url.pathname === '/components/icon'}>Icon</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/components/progress-bar" class="navigation__link" class:active={$page.url.pathname === '/components/progress-bar'}>Progress Bar</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/components/qr-code" class="navigation__link" class:active={$page.url.pathname === '/components/qr-code'}>QR Code</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/components/relative-time" class="navigation__link" class:active={$page.url.pathname === '/components/relative-time'}>Relative Time</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/components/shortened-text" class="navigation__link" class:active={$page.url.pathname === '/components/shortened-text'}>Shortened Text</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/components/skeleton" class="navigation__link" class:active={$page.url.pathname === '/components/skeleton'}>Skeleton</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/components/stage" class="navigation__link" class:active={$page.url.pathname === '/components/stage'}>Stage</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -100,5 +136,18 @@
 
   .navigation__item:not(:first-child) {
     margin-top: var(--spacing-tiny);
+  }
+
+  .navigation__link {
+    text-decoration: none;
+  }
+
+  .navigation__link:hover {
+    color: var(--color-text);
+    text-decoration: underline;
+  }
+
+  .navigation__link.active {
+    color: var(--color-brand);
   }
 </style>
