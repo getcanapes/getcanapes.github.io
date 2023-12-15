@@ -5,7 +5,6 @@
 <aside class="navigation">
   <div class="navigation__header">
     <div class="navigation__logo">Canapés</div>
-    <div class="navigation__version">0.7.0</div>
   </div>
   <div class="navigation__body">
     <div class="navigation__section">
@@ -71,12 +70,6 @@
     font-family: var(--logo-font);
     font-size: 3rem;
     text-align: center;
-  }
-
-  .navigation__version {
-    color: var(--color-text-unobtrusive);
-    font-size: var(--font-size-tiny);
-    margin-left: -35px;
   }
 
   .navigation__body {
