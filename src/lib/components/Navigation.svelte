@@ -2,7 +2,7 @@
 
 </script>
 
-<nav>
+<aside class="navigation">
   <div class="navigation__header">
     <div class="navigation__logo">Canapés</div>
     <div class="navigation__version">0.7.0</div>
@@ -10,7 +10,7 @@
   <div class="navigation__body">
     <div class="navigation__section">
       <h3 class="navigation__subline">Getting started</h3>
-      <ul>
+      <ul class="navigation__items">
         <li class="navigation__item">Home</li>
         <li class="navigation__item">Installation</li>
         <li class="navigation__item">Usage</li>
@@ -18,7 +18,7 @@
     </div>
     <div class="navigation__section">
       <h3 class="navigation__subline">Customization</h3>
-      <ul>
+      <ul class="navigation__items">
         <li class="navigation__item">Design Tokens</li>
         <li class="navigation__item">Color schemes</li>
         <li class="navigation__item">Component styles</li>
@@ -26,7 +26,7 @@
     </div>
     <div class="navigation__section">
       <h3 class="navigation__subline">Components</h3>
-      <ul>
+      <ul class="navigation__items">
         <li class="navigation__item">Badge</li>
         <li class="navigation__item">Breadcrumb</li>
         <li class="navigation__item">Breadcrumb item</li>
@@ -42,25 +42,70 @@
       </ul>
     </div>
   </div>
-</nav>
+</aside>
 
 <style>
-  nav {
+  .navigation {
     border-right: var(--border-width) var(--border-style) var(--border-color);
-    min-height: 100vh;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    overflow: auto;
+    padding: var(--spacing-large);
     position: fixed;
-    width: var(--navigation-width);
+    top: 0;
+    scrollbar-width: thin;
+    width: calc(var(--navigation-width) - (var(--spacing-large)) * 2);
   }
 
   .navigation__header {
-    margin: var(--spacing);
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    position: relative;
   }
 
   .navigation__logo {
     color: var(--color-brand);
     font-family: var(--logo-font);
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
-    width: 100%;
+  }
+
+  .navigation__version {
+    color: var(--color-text-unobtrusive);
+    font-size: var(--font-size-tiny);
+    margin-left: -35px;
+  }
+
+  .navigation__body {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--spacing-large);
+  }
+
+  .navigation__section:not(:first-child) {
+    margin-top: var(--spacing-large);
+  }
+
+  .navigation__subline {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    margin: 0;
+  }
+
+  .navigation__items {
+    padding: 0;
+    margin: var(--spacing-small) 0 0 var(--spacing);
+  }
+
+  .navigation__item {
+    font-size: var(--font-size-small);
+    list-style-type: none;
+  }
+
+  .navigation__item:not(:first-child) {
+    margin-top: var(--spacing-tiny);
   }
 </style>
