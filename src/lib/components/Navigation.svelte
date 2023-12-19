@@ -4,7 +4,7 @@
 
 <aside class="navigation">
   <div class="navigation__header">
-    <div class="navigation__logo">Canapés</div>
+    <a href="/" class="navigation__logo">Canapés</a>
   </div>
   <div class="navigation__body">
     <div class="navigation__section">
@@ -107,6 +107,7 @@
     font-family: var(--logo-font);
     font-size: 2.5rem;
     text-align: center;
+    text-decoration: none;
   }
 
   .navigation__body {
