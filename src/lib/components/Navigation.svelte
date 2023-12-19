@@ -98,7 +98,7 @@
     align-items: flex-end;
     display: flex;
     justify-content: flex-start;
-    margin: var(--spacing) 0;
+    margin: var(--spacing) 0 0;
     position: relative;
   }
 
