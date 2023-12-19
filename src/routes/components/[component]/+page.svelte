@@ -15,9 +15,9 @@
 
 <ca-stage>
   <h1>{ data.documentation?.name }</h1>
+  <p>&lt;{ data.documentation?.tag }&gt;</p>
   <ca-badge pill>{ data.documentation?.state }</ca-badge>
   <p>{ data.documentation?.description }</p>
-  <p>&lt;{ data.documentation?.tag }&gt;</p>
 </ca-stage>
 
 {#if data.documentation?.properties}
