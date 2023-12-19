@@ -121,7 +121,7 @@
   }
 
   .navigation__subline {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size);
     font-weight: var(--font-weight-bold);
     margin: 0;
   }
@@ -132,7 +132,7 @@
   }
 
   .navigation__item {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size);
     list-style-type: none;
   }
 
