@@ -4,6 +4,7 @@
   import '@canapes/canapes/lib/components/badge/badge.js'
 
   import Heading from '$lib/components/Heading.svelte';
+  import ComponentsHeader from '$lib/components/ComponentsHeader.svelte'
 	
 	export let data: PageData;
 </script>
@@ -13,12 +14,11 @@
 	<meta name="description" content="{ data.documentation?.description }">
 </svelte:head>
 
-<ca-stage>
-  <h1>{ data.documentation?.name }</h1>
-  <p>&lt;{ data.documentation?.tag }&gt;</p>
-  <ca-badge pill>{ data.documentation?.state }</ca-badge>
-  <p>{ data.documentation?.description }</p>
-</ca-stage>
+{#if data.documentation}
+  <ca-stage>
+    <ComponentsHeader documentation={ data.documentation } />
+  </ca-stage>
+{/if}
 
 {#if data.documentation?.properties}
   <ca-stage spacingtop="large">
