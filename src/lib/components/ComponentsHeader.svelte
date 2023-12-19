@@ -7,9 +7,9 @@
 <h1>{ documentation.name }</h1>
 <div class="tag">&lt;{ documentation.tag }&gt; <span class="tag__spacer">|</span> { documentation.type }</div>
 {#if documentation.stable}
-  <ca-badge pill>Stable</ca-badge>
+  <ca-badge pill colorscheme="success">Stable</ca-badge>
 {:else}
-  <ca-badge pill>Experimental</ca-badge>
+  <ca-badge pill colorscheme="warning">Experimental</ca-badge>
 {/if}
 <div class="description">
   <p>{ documentation?.description }</p>

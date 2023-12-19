@@ -7,6 +7,9 @@
   --color-background: rgb(255, 255, 255);
   --color-border: rgb(0 0 0 / 8%);
 
+  --color-success: #b4b5a5;
+  --color-warning: #efd1c6;
+
   /** Fonts */
   --base-font: 'Nunito Sans';
   --logo-font: 'Montez';
@@ -42,6 +45,15 @@
 
   /** Navigation */
   --navigation-width: 260px;
+
+  /** Canapes color schemes */
+  --ca-color-scheme-success-background: var(--color-success);
+  --ca-color-scheme-success-color: var(--color-text-light);
+  --ca-color-scheme-success-border-color: var(--color-success);
+
+  --ca-color-scheme-warning-background: var(--color-warning);
+  --ca-color-scheme-warning-color: var(--color-brand);
+  --ca-color-scheme-warning-border-color: var(--color-warning);
 }
 
 body {
