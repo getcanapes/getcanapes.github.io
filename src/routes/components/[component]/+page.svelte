@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>{ data.documentation?.name } · Canapes</title>
+	<title>{ data.documentation?.name } · Canapés</title>
 	<meta name="description" content="{ data.documentation?.description }">
 </svelte:head>
 
