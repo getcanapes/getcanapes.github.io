@@ -97,7 +97,8 @@
   .navigation__header {
     align-items: flex-end;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin: var(--spacing) 0;
     position: relative;
   }
 

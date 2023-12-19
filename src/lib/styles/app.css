@@ -16,7 +16,7 @@
   --font-size-small: 0.9rem;
   --font-size: 1rem;
   --font-size-large: 1.15rem;
-  --font-size-huge: 2rem;
+  --font-size-huge: 2.25rem;
 
   --font-weight: 400;
   --font-weight-bold: 600;
@@ -41,7 +41,7 @@
   --screen-offset: calc(var(--spacing) * 2);
 
   /** Navigation */
-  --navigation-width: 280px;
+  --navigation-width: 260px;
 }
 
 body {
