@@ -5,7 +5,7 @@
 </script>
 
 <h1>{ documentation.name }</h1>
-<div class="tag">&lt;{ documentation.tag }&gt; | { documentation.type }</div>
+<div class="tag">&lt;{ documentation.tag }&gt; <span class="tag__spacer">|</span> { documentation.type }</div>
 {#if documentation.stable}
   <ca-badge pill>Stable</ca-badge>
 {:else}
@@ -26,6 +26,10 @@
     color: var(--color-text-unobtrusive);
     font-size: var(--font-size-large);
     margin: var(--spacing) 0;
+  }
+
+  .tag__spacer {
+    margin: 0 var(--spacing-small);
   }
 
   .description {
