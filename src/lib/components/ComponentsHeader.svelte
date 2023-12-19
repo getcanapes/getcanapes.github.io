@@ -5,8 +5,12 @@
 </script>
 
 <h1>{ documentation.name }</h1>
-<div class="tag">&lt;{ documentation.tag }&gt;</div>
-<ca-badge pill>{ documentation?.state }</ca-badge>
+<div class="tag">&lt;{ documentation.tag }&gt; | { documentation.type }</div>
+{#if documentation.stable}
+  <ca-badge pill>Stable</ca-badge>
+{:else}
+  <ca-badge pill>Experimental</ca-badge>
+{/if}
 <div class="description">
   <p>{ documentation?.description }</p>
 </div>
@@ -14,7 +18,8 @@
 <style>
   h1 {
     font-size: var(--font-size-huge);
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-bold);
+    line-height: 1;
   }
 
   .tag {
