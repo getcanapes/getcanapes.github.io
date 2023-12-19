@@ -1,10 +1,12 @@
 <script lang="ts">
   import { page } from '$app/stores'
+  import pkg from '../../../package.json'
 </script>
 
 <aside class="navigation">
   <div class="navigation__header">
     <a href="/" class="navigation__logo">Canapés</a>
+    <span class="navigation__version">{ pkg.version }</span>
   </div>
   <div class="navigation__body">
     <div class="navigation__section">
@@ -108,6 +110,12 @@
     font-size: 2.5rem;
     text-align: center;
     text-decoration: none;
+  }
+
+  .navigation__version {
+    color: var(--color-text-unobtrusive);
+    font-size: var(--font-size-tiny);
+    margin-left: var(--spacing);
   }
 
   .navigation__body {
