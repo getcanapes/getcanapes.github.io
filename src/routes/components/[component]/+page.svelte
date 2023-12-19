@@ -24,15 +24,18 @@
   <ca-stage spacingtop="medium">
     <Heading><h3>Properties</h3></Heading>
     <table>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Type</th>
-        <th>Default</th>
-        <th>Required</th>
-        <th>Reflected</th>
-      </tr>
-      {#each data.documentation.properties as property}
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Type</th>
+          <th>Default</th>
+          <th>Required</th>
+          <th>Reflected</th>
+        </tr>
+      </thead>
+      <tbody>
+        {#each data.documentation.properties as property}
         <tr>
           <td>{property.name}</td>
           <td>{property.description}</td>
@@ -41,7 +44,8 @@
           <td>{property.required ? 'Yes' : 'No'}</td>
           <td>{property.reflected ? 'Yes' : 'No'}</td>
         </tr>
-      {/each}
+        {/each}
+      </tbody>
     </table>
   </ca-stage>
 {/if}
@@ -50,16 +54,20 @@
   <ca-stage spacingtop="medium">
     <Heading><h3>Slots</h3></Heading>
     <table>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-      {#each data.documentation.slots as slot}
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {#each data.documentation.slots as slot}
         <tr>
           <td>{slot.name}</td>
           <td>{slot.description}</td>
         </tr>
-      {/each}
+        {/each}
+      </tbody>
     </table>
   </ca-stage>
 {/if}
@@ -68,18 +76,22 @@
   <ca-stage spacingtop="medium">
     <Heading><h3>Style Variables</h3></Heading>
     <table>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Default</th>
-      </tr>
-      {#each data.documentation.styleVariables as styleVariable}
+      <thead>
         <tr>
-          <td>{styleVariable.name}</td>
-          <td>{styleVariable.description}</td>
-          <td>{typeof styleVariable.default !== 'undefined' ? styleVariable.default : ''}</td>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Default</th>
         </tr>
-      {/each}
+      </thead>
+      <tbody>
+        {#each data.documentation.styleVariables as styleVariable}
+          <tr>
+            <td>{styleVariable.name}</td>
+            <td>{styleVariable.description}</td>
+            <td>{typeof styleVariable.default !== 'undefined' ? styleVariable.default : ''}</td>
+          </tr>
+        {/each}
+      </tbody>
     </table>
   </ca-stage>
 {/if}
