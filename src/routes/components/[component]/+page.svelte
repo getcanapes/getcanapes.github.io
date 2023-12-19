@@ -39,7 +39,13 @@
         <tr>
           <td>{property.name}</td>
           <td>{property.description}</td>
-          <td>{property.type}</td>
+          <td>
+            {#if typeof property.type === 'object'}
+              {property.type.join(' | ')}
+            {:else}
+              {property.type}
+            {/if}
+          </td>
           <td>{typeof property.default !== 'undefined' ? property.default : ''}</td>
           <td>{property.required ? 'Yes' : 'No'}</td>
           <td>{property.reflected ? 'Yes' : 'No'}</td>
