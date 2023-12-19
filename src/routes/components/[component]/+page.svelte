@@ -21,8 +21,8 @@
 </ca-stage>
 
 {#if data.documentation?.properties}
-  <ca-stage spacingtop="medium">
-    <Heading><h3>Properties</h3></Heading>
+  <ca-stage spacingtop="large">
+    <Heading>Properties</Heading>
     <table>
       <thead>
         <tr>
@@ -31,7 +31,7 @@
           <th>Type</th>
           <th>Default</th>
           <th>Required</th>
-          <th>Reflected</th>
+          <th>Reflects</th>
         </tr>
       </thead>
       <tbody>
@@ -51,8 +51,8 @@
 {/if}
 
 {#if data.documentation?.slots}
-  <ca-stage spacingtop="medium">
-    <Heading><h3>Slots</h3></Heading>
+  <ca-stage spacingtop="large">
+    <Heading>Slots</Heading>
     <table>
       <thead>
         <tr>
@@ -73,8 +73,8 @@
 {/if}
 
 {#if data.documentation?.styleVariables}
-  <ca-stage spacingtop="medium">
-    <Heading><h3>Style Variables</h3></Heading>
+  <ca-stage spacingtop="large">
+    <Heading>Style Variables</Heading>
     <table>
       <thead>
         <tr>

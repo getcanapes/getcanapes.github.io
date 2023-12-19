@@ -4,6 +4,7 @@
 
   import '$lib/styles/app.css'
   import '$lib/styles/fonts.css'
+  import '$lib/styles/table.css'
 </script>
 
 <svelte:head>
