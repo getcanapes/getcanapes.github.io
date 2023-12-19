@@ -19,7 +19,7 @@
   }
 
   .ph h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: var(--font-weight-bold);
   }
 </style>
