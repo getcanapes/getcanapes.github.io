@@ -18,5 +18,6 @@
 <style>
   main {
     margin-left: var(--navigation-width);
+    padding: var(--spacing);
   }
 </style>
