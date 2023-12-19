@@ -24,8 +24,8 @@
     <table>
       <tr>
         <th>Name</th>
-        <th>Type</th>
         <th>Description</th>
+        <th>Type</th>
         <th>Default</th>
         <th>Required</th>
         <th>Reflected</th>
@@ -33,8 +33,8 @@
       {#each data.documentation.properties as property}
         <tr>
           <td>{property.name}</td>
-          <td>{property.type}</td>
           <td>{property.description}</td>
+          <td>{property.type}</td>
           <td>{typeof property.default !== 'undefined' ? property.default : ''}</td>
           <td>{property.required ? 'Yes' : 'No'}</td>
           <td>{property.reflected ? 'Yes' : 'No'}</td>
