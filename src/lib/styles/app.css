@@ -3,9 +3,9 @@
   --color-brand: rgb(190, 52, 85);
   --color-link: var(--color-brand);
   --color-text: rgb(26, 26, 36);
-  --color-text-unobtrusive: rgba(26, 26, 36, 0.6);
+  --color-text-unobtrusive: #b7a990;
   --color-background: rgb(255, 255, 255);
-  --color-border: rgb(0 0 0 / 8%);
+  --color-border: #c6d1dd;
 
   --color-success: #b4b5a5;
   --color-warning: #efd1c6;
