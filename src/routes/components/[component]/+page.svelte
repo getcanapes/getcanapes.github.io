@@ -2,6 +2,8 @@
   import type { PageData } from './$types';
   import '@canapes/canapes/lib/components/stage/stage.js'
   import '@canapes/canapes/lib/components/badge/badge.js'
+
+  import Heading from '$lib/components/Heading.svelte';
 	
 	export let data: PageData;
 </script>
@@ -15,12 +17,12 @@
   <h1>{ data.documentation?.name }</h1>
   <ca-badge pill>{ data.documentation?.state }</ca-badge>
   <p>{ data.documentation?.description }</p>
-  <p>{ data.documentation?.tag }</p>
+  <p>&lt;{ data.documentation?.tag }&gt;</p>
 </ca-stage>
 
 {#if data.documentation?.properties}
-  <ca-stage spacingtop="small">
-    <h3>Properties</h3>
+  <ca-stage spacingtop="medium">
+    <Heading><h3>Properties</h3></Heading>
     <table>
       <tr>
         <th>Name</th>
@@ -45,8 +47,8 @@
 {/if}
 
 {#if data.documentation?.slots}
-  <ca-stage spacingtop="small">
-    <h3>Slots</h3>
+  <ca-stage spacingtop="medium">
+    <Heading><h3>Slots</h3></Heading>
     <table>
       <tr>
         <th>Name</th>
@@ -63,8 +65,8 @@
 {/if}
 
 {#if data.documentation?.styleVariables}
-  <ca-stage spacingtop="small">
-    <h3>Style Variables</h3>
+  <ca-stage spacingtop="medium">
+    <Heading><h3>Style Variables</h3></Heading>
     <table>
       <tr>
         <th>Name</th>
