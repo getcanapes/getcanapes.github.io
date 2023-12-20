@@ -37,7 +37,7 @@
       <tbody>
         {#each data.documentation.properties as property}
         <tr>
-          <td>{property.name}</td>
+          <td><code>{property.name}</code></td>
           <td>{property.description}</td>
           <td>
             {#if typeof property.type === 'object'}
@@ -69,7 +69,7 @@
       <tbody>
         {#each data.documentation.slots as slot}
         <tr>
-          <td>{slot.name}</td>
+          <td><code>{slot.name}</code></td>
           <td>{slot.description}</td>
         </tr>
         {/each}
@@ -92,7 +92,7 @@
       <tbody>
         {#each data.documentation.styleVariables as styleVariable}
           <tr>
-            <td>{styleVariable.name}</td>
+            <td><code>{styleVariable.name}</code></td>
             <td>{styleVariable.description}</td>
             <td>{typeof styleVariable.default !== 'undefined' ? styleVariable.default : ''}</td>
           </tr>

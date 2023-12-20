@@ -9,6 +9,7 @@
 
   --color-success: #b4b5a5;
   --color-warning: #efd1c6;
+  --color-code: rgba(0, 0, 0, 0.025);
 
   /** Fonts */
   --base-font: 'Nunito Sans';
@@ -19,7 +20,7 @@
   --font-size-small: 0.9rem;
   --font-size: 1rem;
   --font-size-large: 1.25rem;
-  --font-size-extra-large: 1.5rem;
+  --font-size-extra-large: 1.4rem;
   --font-size-huge: 2.25rem;
 
   --font-weight: 400;
@@ -29,8 +30,8 @@
   --border-color: var(--color-border);
   --border-width: 1px;
   --border-style: solid;
-  --border-radius-small: 4px;
-  --border-radius: 12px;
+  --border-radius-small: 2px;
+  --border-radius: 8px;
 
   /** Spacings */
   --spacing-micro: calc(var(--spacing) / 8);
@@ -87,4 +88,10 @@ a {
 
 a:hover {
   color: var(--color-brand);
+}
+
+code {
+  background-color: var(--color-code);
+  border-radius: var(--border-radius-small);
+  padding: var(--spacing-tiny) var(--spacing-small);
 }
