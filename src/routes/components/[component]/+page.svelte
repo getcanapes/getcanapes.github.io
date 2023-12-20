@@ -2,10 +2,11 @@
   import type { PageData } from './$types';
   import '@canapes/canapes/lib/components/stage/stage.js'
   import '@canapes/canapes/lib/components/badge/badge.js'
-
+  
   import Heading from '$lib/components/Heading.svelte';
   import ComponentHeader from '$lib/components/ComponentHeader.svelte'
-  
+  import ComponentExample from '$lib/components/ComponentExample.svelte'
+	
 	export let data: PageData;
 </script>
 
@@ -17,6 +18,12 @@
 {#if data.documentation}
   <ca-stage>
     <ComponentHeader documentation={ data.documentation } />
+  </ca-stage>
+{/if}
+
+{#if data.documentation?.examples}
+  <ca-stage spacing-top="medium">
+    <ComponentExample documentation={ data.documentation } />
   </ca-stage>
 {/if}
 
