@@ -46,7 +46,7 @@
               {property.type}
             {/if}
           </td>
-          <td>{typeof property.default !== 'undefined' ? property.default : ''}</td>
+          <td>{@html typeof property.default !== 'undefined' ? `<i>${property.default}</i>` : ''}</td>
           <td>{property.required ? 'Yes' : 'No'}</td>
           <td>{property.reflected ? 'Yes' : 'No'}</td>
         </tr>
@@ -100,7 +100,7 @@
           <tr>
             <td><code>{styleVariable.name}</code></td>
             <td>{styleVariable.description}</td>
-            <td>{typeof styleVariable.default !== 'undefined' ? styleVariable.default : ''}</td>
+            <td>{@html typeof styleVariable.default !== 'undefined' ? `<i>${styleVariable.default}</i>` : ''}</td>
           </tr>
         {/each}
       </tbody>
