@@ -9,7 +9,7 @@
 
   --color-success: #b4b5a5;
   --color-warning: #efd1c6;
-  --color-code: rgba(0, 0, 0, 0.025);
+  --color-code: #f7f7f7;
 
   /** Fonts */
   --base-font: 'Nunito Sans';
@@ -31,7 +31,7 @@
   --border-width: 1px;
   --border-style: solid;
   --border-radius-small: 2px;
-  --border-radius: 8px;
+  --border-radius: 4px;
 
   /** Spacings */
   --spacing-micro: calc(var(--spacing) / 8);
