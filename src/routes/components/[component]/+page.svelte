@@ -70,10 +70,10 @@
         {#each data.documentation.slots as slot}
         <tr>
           <td>
-            {#if slot.name === '(default)'}
-              {slot.name}
-            {:else}
+            {#if slot.name}
               <code>{slot.name}</code>
+            {:else}
+              (default)
             {/if}
           </td>
           <td>{slot.description}</td>
