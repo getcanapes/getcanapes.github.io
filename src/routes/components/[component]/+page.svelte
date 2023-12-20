@@ -4,8 +4,8 @@
   import '@canapes/canapes/lib/components/badge/badge.js'
 
   import Heading from '$lib/components/Heading.svelte';
-  import ComponentsHeader from '$lib/components/ComponentsHeader.svelte'
-	
+  import ComponentHeader from '$lib/components/ComponentHeader.svelte'
+  
 	export let data: PageData;
 </script>
 
@@ -16,7 +16,7 @@
 
 {#if data.documentation}
   <ca-stage>
-    <ComponentsHeader documentation={ data.documentation } />
+    <ComponentHeader documentation={ data.documentation } />
   </ca-stage>
 {/if}
 

@@ -4,15 +4,17 @@
   export let documentation: Documentation
 </script>
 
-<h1>{ documentation.name }</h1>
-<div class="tag">&lt;{ documentation.tag }&gt; <span class="tag__spacer">|</span> { documentation.type }</div>
-{#if documentation.stable}
-  <ca-badge pill color-scheme="success">Stable</ca-badge>
-{:else}
-  <ca-badge pill color-scheme="warning">Experimental</ca-badge>
-{/if}
-<div class="description">
-  <p>{ documentation?.description }</p>
+<div class="component-header">
+  <h1>{ documentation.name }</h1>
+  <div class="tag">&lt;{ documentation.tag }&gt; <span class="tag__spacer">|</span> { documentation.type }</div>
+  {#if documentation.stable}
+    <ca-badge pill color-scheme="success">Stable</ca-badge>
+  {:else}
+    <ca-badge pill color-scheme="warning">Experimental</ca-badge>
+  {/if}
+  <div class="description">
+    <p>{ documentation?.description }</p>
+  </div>
 </div>
 
 <style>
