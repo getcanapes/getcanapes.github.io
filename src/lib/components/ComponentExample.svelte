@@ -19,6 +19,7 @@
   .component-example {
     border: var(--border-width) var(--border-style) var(--border-color);
     border-radius: var(--border-radius);
+    overflow: hidden;
   }
 
   .result {
