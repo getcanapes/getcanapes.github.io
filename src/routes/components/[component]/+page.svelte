@@ -69,7 +69,13 @@
       <tbody>
         {#each data.documentation.slots as slot}
         <tr>
-          <td><code>{slot.name}</code></td>
+          <td>
+            {#if slot.name === '(default)'}
+              {slot.name}
+            {:else}
+              <code>{slot.name}</code>
+            {/if}
+          </td>
           <td>{slot.description}</td>
         </tr>
         {/each}
