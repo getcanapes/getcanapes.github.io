@@ -21,7 +21,7 @@
 {/if}
 
 {#if data.documentation?.properties}
-  <ca-stage spacingtop="large">
+  <ca-stage spacing-top="large">
     <Heading>Properties</Heading>
     <table>
       <thead>
@@ -57,7 +57,7 @@
 {/if}
 
 {#if data.documentation?.slots}
-  <ca-stage spacingtop="large">
+  <ca-stage spacing-top="large">
     <Heading>Slots</Heading>
     <table>
       <thead>
@@ -85,7 +85,7 @@
 {/if}
 
 {#if data.documentation?.styleVariables}
-  <ca-stage spacingtop="large">
+  <ca-stage spacing-top="large">
     <Heading>Style Variables</Heading>
     <table>
       <thead>
