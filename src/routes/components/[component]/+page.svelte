@@ -123,3 +123,15 @@
     </table>
   </ca-stage>
 {/if}
+
+{#if data.documentation?.dependencies}
+  <ca-stage spacing-top="large">
+    <Heading>Dependencies</Heading>
+    <p>This component has the following components as a dependency:</p>
+    <ul>
+      {#each data.documentation.dependencies as dependency}
+        <li>&lt;{dependency}&gt;</li>
+      {/each}
+    </ul>
+  </ca-stage>
+{/if}
