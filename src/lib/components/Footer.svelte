@@ -21,7 +21,7 @@
 
   a {
     color: var(--color-text);
-    font-size: var(--font-size-tiny);
+    font-size: var(--font-size-small);
     text-decoration: none;
   }
 
