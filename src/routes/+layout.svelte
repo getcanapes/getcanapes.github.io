@@ -5,6 +5,7 @@
   import '$lib/styles/app.css'
   import '$lib/styles/fonts.css'
   import '$lib/styles/table.css'
+  import Footer from '$lib/components/Footer.svelte'
 </script>
 
 <svelte:head>
@@ -14,6 +15,7 @@
 <Navigation />
 <main>
   <slot />
+  <Footer />
 </main>
 
 <style>
