@@ -6,6 +6,8 @@
   import '$lib/styles/fonts.css'
   import '$lib/styles/table.css'
   import Footer from '$lib/components/Footer.svelte'
+
+  export const prerender = true
 </script>
 
 <svelte:head>
