@@ -6,13 +6,7 @@
   import '$lib/styles/fonts.css'
   import '$lib/styles/table.css'
   import Footer from '$lib/components/Footer.svelte'
-
-  export const prerender = true
 </script>
-
-<svelte:head>
-  <link rel="canonical" href="https://getcanapes.com{ $page.url.pathname != '/' ? $page.url.pathname + $page.url.search : '' }">
-</svelte:head>
 
 <Navigation />
 <main>
