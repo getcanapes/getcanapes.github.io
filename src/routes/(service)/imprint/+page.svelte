@@ -31,5 +31,5 @@
 
 <ca-stage spacing-top="small">
   <h2>Disclaimer</h2>
-  <p>Svelje does not assume any liability for the content of external links. The operators of the linked sites are solely responsible for the content of their sites.</p>
+  <p>We do not assume any liability for the content of external links. The operators of the linked sites are solely responsible for the content of their sites.</p>
 </ca-stage>
