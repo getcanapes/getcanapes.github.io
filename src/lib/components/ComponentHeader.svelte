@@ -12,8 +12,8 @@
   {:else}
     <ca-badge pill color-scheme="warning">Experimental</ca-badge>
   {/if}
-  <div class="description">
-    <p>{ documentation?.description }</p>
+  <div class="summary">
+    <p>{ documentation?.summary }</p>
   </div>
 </div>
 
@@ -34,7 +34,7 @@
     margin: 0 var(--spacing-small);
   }
 
-  .description {
+  .summary {
     font-size: var(--font-size-large);
     margin-top: var(--spacing-huge);
   }
