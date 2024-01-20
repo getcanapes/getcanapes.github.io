@@ -135,7 +135,7 @@
     --ca-button-padding: var(--spacing-tiny);
     --ca-button-font-size: var(--font-size-micro);
     --ca-button-font-weight: var(--font-weight);
-    --ca-button-prefix-margin: 0 var(--spacing-small) 0 var(--spacing-tiny);
+    --ca-button-prefix-margin: 0 var(--spacing-small) 0 var(--spacing-small);
     --ca-button-border-radius: var(--border-radius-small);
   }
 
