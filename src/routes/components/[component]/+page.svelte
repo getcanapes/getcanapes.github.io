@@ -108,6 +108,7 @@
         <tr>
           <th>Name</th>
           <th>Description</th>
+          <th>Property</th>
           <th>Default</th>
         </tr>
       </thead>
@@ -116,6 +117,7 @@
           <tr>
             <td><code>{styleVariable.name}</code></td>
             <td>{styleVariable.description}</td>
+            <td>{styleVariable.property}</td>
             <td>{@html typeof styleVariable.default !== 'undefined' ? `<i>${styleVariable.default}</i>` : ''}</td>
           </tr>
         {/each}
