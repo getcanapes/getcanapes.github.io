@@ -17,7 +17,7 @@
 </ca-stage>
 
 <ca-stage spacing-top="small">
-  <p>You can add the following code to your markup to display a button:</p>
+  <p>You can add the following code to your markup to display a <a href="/components/button">button</a>:</p>
   <code>
     &lt;ca-button&gt;Foo&lt;/ca-button&gt;
   </code>
