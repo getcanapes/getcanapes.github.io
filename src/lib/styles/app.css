@@ -6,6 +6,7 @@
   --color-text-unobtrusive: #b7a990;
   --color-background: rgb(255, 255, 255);
   --color-border: #c6d1dd;
+  --color-light: #ffffff;
 
   --color-success: #b4b5a5;
   --color-warning: #efd1c6;
@@ -56,6 +57,10 @@
   --ca-color-scheme-warning-background: var(--color-warning);
   --ca-color-scheme-warning-color: var(--color-brand);
   --ca-color-scheme-warning-border-color: var(--color-warning);
+
+  --ca-color-scheme-unobtrusive-background: var(--color-light);
+  --ca-color-scheme-unobtrusive-color: var(--color-text-unobtrusive);
+  --ca-color-scheme-unobtrusive-border-color: var(--color-text-unobtrusive);
 }
 
 body {
