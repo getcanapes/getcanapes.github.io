@@ -12,11 +12,12 @@
 	<p class="subline">Reliable web components for everyday use.</p>
 	<ul class="advantages">
 		<li>Works with all frameworks (and even without a framework)</li>
-		<li>Easy usage as script module or embed via NPM</li>
+		<li>Directly embed in your markup or import via NPM</li>
 		<li>Ready for your build process</li>
 		<li>Fully customizable styles</li>
-		<li>Built with accessibility in mind</li>
 		<li>Machine-readable documentation</li>
+		<li>Support of TypeScript</li>
+		<li>Built with accessibility in mind</li>
 		<li>Open source</li>
 	</ul>
 </ca-stage>
