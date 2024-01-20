@@ -21,6 +21,7 @@
   <code>
     &lt;ca-button&gt;Foo&lt;/ca-button&gt;
   </code>
+  <p>All Canapés components a prefixed with <i>ca-</i> to indicate a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements" target="_blank">custom element</a>. You can read more about all components on their dedicated documentation page, for example for the <a href="/components/button">button</a>.</p>
 </ca-stage>
 
 <ca-stage spacing-top="medium">
