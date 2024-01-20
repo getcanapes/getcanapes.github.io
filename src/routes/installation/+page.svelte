@@ -1,7 +1,7 @@
 <script lang="ts">
   import '@canapes/canapes/lib/components/stage/stage.js'
 
-  import Heading from '$lib/components/Heading.svelte';
+  import Heading from '$lib/components/Heading.svelte'
   import pkg from '../../../package.json'
 </script>
 
