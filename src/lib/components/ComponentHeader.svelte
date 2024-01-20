@@ -15,6 +15,11 @@
   <div class="summary">
     <p>{ documentation?.summary }</p>
   </div>
+  {#if documentation.description}
+    <div class="description">
+      <p>{@html documentation?.description }</p>
+    </div>
+  {/if}
 </div>
 
 <style>
@@ -37,5 +42,10 @@
   .summary {
     font-size: var(--font-size-large);
     margin-top: var(--spacing-huge);
+  }
+
+  .description {
+    font-size: var(--font-size);
+    margin-top: var(--spacing-large);
   }
 </style>
