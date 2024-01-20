@@ -33,6 +33,9 @@
           <a href="/" class="navigation__link" class:active={$page.url.pathname === '/customization/color-schemes'}>Color Schemes</a>
         </li>
         <li class="navigation__item">
+          <a href="/" class="navigation__link" class:active={$page.url.pathname === '/customization/custom-properties'}>Custom Properties</a>
+        </li>
+        <li class="navigation__item">
           <a href="/" class="navigation__link" class:active={$page.url.pathname === '/customization/component-styles'}>Component Styles</a>
         </li>
       </ul>
