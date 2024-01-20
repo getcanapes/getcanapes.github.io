@@ -19,4 +19,5 @@ table td {
 
 table td code {
   font-size: var(--font-size-tiny);
+  white-space: nowrap;
 }
