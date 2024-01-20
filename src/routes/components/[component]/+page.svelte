@@ -38,7 +38,7 @@
 
 {#if data.documentation?.properties}
   <ca-stage spacing-top="large">
-    <Heading>Properties</Heading>
+    <Heading>Attributes</Heading>
     <table>
       <thead>
         <tr>
@@ -102,7 +102,7 @@
 
 {#if data.documentation?.styleVariables}
   <ca-stage spacing-top="large">
-    <Heading>Style Variables</Heading>
+    <Heading>Custom Properties</Heading>
     <table>
       <thead>
         <tr>
