@@ -47,14 +47,14 @@
   <code>
     &lt;ca-button&gt;<br>
     &nbsp;&nbsp;Click me!<br>
-    &lt;/ca-badge&gt;
+    &lt;/ca-button&gt;
   </code>
   <p>The button also has a prefix slot, which is usually used for an icon. Slots that are not the default must be assigned with the <i>slot</i> attribute:</p>
   <code>
     &lt;ca-button&gt;<br>
     &nbsp;&nbsp;&lt;ca-icon slot="prefix" name="heart"&gt;&lt;ca-icon&gt;<br>
     &nbsp;&nbsp;Click me!<br>
-    &lt;/ca-badge&gt;
+    &lt;/ca-button&gt;
   </code>
 </ca-stage>
 
