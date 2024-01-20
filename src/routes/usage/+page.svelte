@@ -32,7 +32,7 @@
   <code>
     &lt;ca-button pill&gt;Foo&lt;/ca-button&gt;
   </code>
-  <p>Some attributes like <i>href</i> require also a value:</p>
+  <p>Some attributes like <i>href</i> also require a value:</p>
   <code>
     &lt;ca-button href="https://docs.getcanapes.com"&gt;Foo&lt;/ca-button&gt;
   </code>
