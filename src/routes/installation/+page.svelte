@@ -2,6 +2,7 @@
   import '@canapes/canapes/lib/components/stage/stage.js'
 
   import Heading from '$lib/components/Heading.svelte';
+  import pkg from '../../../package.json'
 </script>
 
 <svelte:head>
@@ -28,11 +29,11 @@
   </code>
   <p>You can also define a specific version:</p>
   <code>
-    &lt;script type="module" src="https://unpkg.com/@canapes/canapes@0.9.0/modules/canapes.js"&gt;&lt;/script&gt;
+    &lt;script type="module" src="https://unpkg.com/@canapes/canapes@{ pkg.version }/modules/canapes.js"&gt;&lt;/script&gt;
   </code>
   <p>Or just import a single component:</p>
   <code>
-    &lt;script type="module" src="https://unpkg.com/@canapes/canapes@0.9.0/modules/components/badge/badge.js"&gt;&lt;/script&gt;
+    &lt;script type="module" src="https://unpkg.com/@canapes/canapes@{ pkg.version }/modules/components/badge/badge.js"&gt;&lt;/script&gt;
   </code>
   <p>In a professional project, it is advisable not to reference the files via <a href="https://unpkg.com" target="_blank">unpkg.com</a>, but to store them on your own server. Simply copy the Canapés <i>modules</i> folder and change the <i>src</i> in your import statement.</p>
 </ca-stage>
