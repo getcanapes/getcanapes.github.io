@@ -1,4 +1,7 @@
 <script lang="ts">
+  import '@canapes/canapes/lib/components/button/button.js'
+  import '@canapes/canapes/lib/components/icon/icon.js'
+  
   import { page } from '$app/stores'
   import pkg from '../../../package.json'
 </script>
