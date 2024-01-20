@@ -15,7 +15,7 @@
 </ca-stage>
 
 <ca-stage spacing-top="small">
-  <p>Canapés can be integrated in two different ways: Via a simple script directly in your markup or as a <a href="https://www.npmjs.com/package/@canapes/canapes" target="_blank">package via NPM</a>. Both variants have their own advantages, which are explained below.</p>
+  <p>Canapés can be integrated in two different ways: With a simple script directly in your markup or as a <a href="https://www.npmjs.com/package/@canapes/canapes" target="_blank">package via NPM</a>. Both variants have their own advantages, which are explained below.</p>
 </ca-stage>
 
 <ca-stage spacing-top="medium">
@@ -43,14 +43,12 @@
 </ca-stage>
 
 <ca-stage>
-  <p>Another method to install Canapés is using a packet manager. This way you can integrate it into your build process and use the TypeScript types.</p>
+  <p>Another method to install Canapés is using a <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" target="_blank">packet manager</a>. This way you can integrate it into your build process and benefit from <a href="https://www.typescriptlang.org" target="_blank">TypeScript</a>.</p>
 </ca-stage>
 
 <ca-stage spacing-top="small">
   <p>Simply install the latest version with the following command:</p>
   <code>npm i @canapes/canapes</code>
-  <p>Or alternatively use yarn:</p>
-  <code>yarn i @canapes/canapes</code>
   <p>After that you can import the component you want to use in your <i>script</i> part:</p>
   <code>
     &lt;script&gt;<br>
