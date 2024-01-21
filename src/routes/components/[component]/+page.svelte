@@ -36,7 +36,7 @@
   </ca-stage>
 {/if}
 
-{#if data.documentation?.properties}
+{#if data.documentation?.attributes}
   <ca-stage spacing-top="large">
     <Heading>Attributes</Heading>
     <table>
@@ -51,20 +51,20 @@
         </tr>
       </thead>
       <tbody>
-        {#each data.documentation.properties as property}
+        {#each data.documentation.attributes as attribute}
         <tr>
-          <td><code>{property.name}</code></td>
-          <td>{property.description}</td>
+          <td><code>{attribute.name}</code></td>
+          <td>{attribute.description}</td>
           <td>
-            {#if typeof property.type === 'object'}
-              {property.type.join(' | ')}
+            {#if typeof attribute.type === 'object'}
+              {attribute.type.join(' | ')}
             {:else}
-              {property.type}
+              {attribute.type}
             {/if}
           </td>
-          <td>{@html typeof property.default !== 'undefined' ? `<i>${property.default}</i>` : ''}</td>
-          <td>{property.required ? 'Yes' : 'No'}</td>
-          <td>{property.reflected ? 'Yes' : 'No'}</td>
+          <td>{@html typeof attribute.default !== 'undefined' ? `<i>${attribute.default}</i>` : ''}</td>
+          <td>{attribute.required ? 'Yes' : 'No'}</td>
+          <td>{attribute.reflected ? 'Yes' : 'No'}</td>
         </tr>
         {/each}
       </tbody>
@@ -100,7 +100,7 @@
   </ca-stage>
 {/if}
 
-{#if data.documentation?.styleVariables}
+{#if data.documentation?.customProperties}
   <ca-stage spacing-top="large">
     <Heading>Custom Properties</Heading>
     <table>
@@ -113,12 +113,12 @@
         </tr>
       </thead>
       <tbody>
-        {#each data.documentation.styleVariables as styleVariable}
+        {#each data.documentation.customProperties as customProperty}
           <tr>
-            <td><code>{styleVariable.name}</code></td>
-            <td>{styleVariable.description}</td>
-            <td>{styleVariable.property}</td>
-            <td>{@html typeof styleVariable.default !== 'undefined' ? `<i>${styleVariable.default}</i>` : ''}</td>
+            <td><code>{customProperty.name}</code></td>
+            <td>{customProperty.description}</td>
+            <td>{customProperty.property}</td>
+            <td>{@html typeof customProperty.default !== 'undefined' ? `<i>${customProperty.default}</i>` : ''}</td>
           </tr>
         {/each}
       </tbody>
