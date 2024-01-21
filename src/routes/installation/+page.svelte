@@ -43,7 +43,7 @@
 </ca-stage>
 
 <ca-stage>
-  <p>Another method to install Canapés is using a <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" target="_blank">packet manager</a>. This way you can integrate it into your build process and benefit from <a href="https://www.typescriptlang.org" target="_blank">TypeScript</a>.</p>
+  <p>Another method to install Canapés is using a <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" target="_blank">package manager</a>. This way you can integrate it into your build process and benefit from <a href="https://www.typescriptlang.org" target="_blank">TypeScript</a>.</p>
 </ca-stage>
 
 <ca-stage spacing-top="small">
