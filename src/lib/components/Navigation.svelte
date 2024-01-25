@@ -135,11 +135,11 @@
   }
 
   .navigation__buttons ca-button {
-    --ca-button-padding: var(--spacing-tiny);
-    --ca-button-font-size: var(--font-size-micro);
-    --ca-button-font-weight: var(--font-weight);
-    --ca-button-prefix-margin: 0 var(--spacing-small) 0 var(--spacing-small);
-    --ca-button-border-radius: var(--border-radius-small);
+    --border-radius: var(--border-radius-small);
+    --font-size: var(--font-size-tiny);
+    --font-weight: var(--font-weight);
+    --padding: var(--spacing-tiny) var(--spacing-tiny) var(--spacing-tiny) var(--spacing);
+    --prefix-margin: var(--spacing-small);
   }
 
   .navigation__buttons ca-button:not(:first-child) {
