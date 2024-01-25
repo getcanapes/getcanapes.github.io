@@ -110,15 +110,17 @@
           <th>Description</th>
           <th>Property</th>
           <th>Default</th>
+          <th>Fallback</th>
         </tr>
       </thead>
       <tbody>
         {#each data.documentation.customProperties as customProperty}
           <tr>
             <td><code>{customProperty.name}</code></td>
-            <td>{customProperty.description}</td>
+            <td>{@html customProperty.description}</td>
             <td>{customProperty.property}</td>
-            <td>{@html typeof customProperty.default !== 'undefined' ? `<i>${customProperty.default}</i>` : ''}</td>
+            <td>{@html typeof customProperty.value !== 'undefined' ? `<i>${customProperty.value}</i>` : ''}</td>
+            <td>{customProperty.fallback ? customProperty.fallback : ''}</td>
           </tr>
         {/each}
       </tbody>
