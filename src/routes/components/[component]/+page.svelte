@@ -138,6 +138,7 @@
           <th>Description</th>
           <th>Property</th>
           <th>Value</th>
+          <th>Design Token</th>
           <th>Fallback</th>
         </tr>
       </thead>
@@ -147,8 +148,9 @@
             <td><code>{customProperty.name}</code></td>
             <td>{@html customProperty.description}</td>
             <td>{customProperty.property}</td>
-            <td>{@html typeof customProperty.value !== 'undefined' ? `<i>${customProperty.value}</i>` : ''}</td>
-            <td>{customProperty.fallback ? customProperty.fallback : ''}</td>
+            <td>{@html typeof customProperty.value !== 'undefined' ? `<i>${customProperty.value}</i>` : '-'}</td>
+            <td>{@html typeof customProperty.designToken?.value !== 'undefined' ? `<i>${customProperty.designToken.value}</i>` : '-'}</td>
+            <td>{customProperty.designToken?.fallback ? customProperty.designToken.fallback : '-'}</td>
           </tr>
         {/each}
       </tbody>
