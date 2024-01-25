@@ -100,6 +100,34 @@
   </ca-stage>
 {/if}
 
+{#if data.documentation?.shadowParts}
+<ca-stage spacing-top="large">
+  <Heading>CSS Parts</Heading>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {#each data.documentation.shadowParts as part}
+      <tr>
+        <td><code>{part.name}</code></td>
+        <td>
+          {#if part.name === 'base'}
+            Component's base part.
+          {:else}
+            {part.description}
+          {/if}
+        </td>
+      </tr>
+      {/each}
+    </tbody>
+  </table>
+</ca-stage>
+{/if}
+
 {#if data.documentation?.customProperties}
   <ca-stage spacing-top="large">
     <Heading>Custom Properties</Heading>
