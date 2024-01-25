@@ -137,7 +137,7 @@
           <th>Name</th>
           <th>Description</th>
           <th>Property</th>
-          <th>Default</th>
+          <th>Value</th>
           <th>Fallback</th>
         </tr>
       </thead>
