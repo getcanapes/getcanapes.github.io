@@ -137,9 +137,7 @@
           <th>Name</th>
           <th>Description</th>
           <th>Property</th>
-          <th>Value</th>
-          <th>Design Token</th>
-          <th>Fallback</th>
+          <th>Default</th>
         </tr>
       </thead>
       <tbody>
@@ -148,9 +146,31 @@
             <td><code>{customProperty.name}</code></td>
             <td>{@html customProperty.description}</td>
             <td>{customProperty.property}</td>
-            <td>{@html typeof customProperty.value !== 'undefined' ? `<i>${customProperty.value}</i>` : '-'}</td>
-            <td>{@html typeof customProperty.designToken?.value !== 'undefined' ? `<i>${customProperty.designToken.value}</i>` : '-'}</td>
-            <td>{customProperty.designToken?.fallback ? customProperty.designToken.fallback : '-'}</td>
+            <td>{@html typeof customProperty.default !== 'undefined' ? `<i>${customProperty.default}</i>` : ''}</td>
+          </tr>
+        {/each}
+      </tbody>
+    </table>
+  </ca-stage>
+{/if}
+
+{#if data.documentation?.designToken}
+  <ca-stage spacing-top="large">
+    <Heading>Design Token</Heading>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+        {#each data.documentation.designToken as designToken}
+          <tr>
+            <td><code>{designToken.name}</code></td>
+            <td>{@html designToken.description}</td>
+            <td>{@html typeof designToken.default !== 'undefined' ? `<i>${designToken.default}</i>` : ''}</td>
           </tr>
         {/each}
       </tbody>
