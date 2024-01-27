@@ -12,7 +12,7 @@
   import '@canapes/canapes/lib/components/skeleton/skeleton.js'
   import '@canapes/canapes/lib/components/stage/stage.js'
   
-  import Heading from '$lib/components/Heading.svelte';
+  import Heading from '$lib/components/Heading.svelte'
   import ComponentHeader from '$lib/components/ComponentHeader.svelte'
   import ComponentExample from '$lib/components/ComponentExample.svelte'
 	

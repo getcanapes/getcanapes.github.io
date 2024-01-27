@@ -40,7 +40,7 @@
       <h3 class="navigation__subline">Customization</h3>
       <ul class="navigation__items">
         <li class="navigation__item">
-          <a href="/" class="navigation__link" class:active={$page.url.pathname === '/customization/design-tokens'}>Design Tokens</a>
+          <a href="/customization/design-tokens" class="navigation__link" class:active={$page.url.pathname === '/customization/design-tokens'}>Design Tokens</a>
         </li>
         <li class="navigation__item">
           <a href="/" class="navigation__link" class:active={$page.url.pathname === '/customization/color-schemes'}>Color Schemes</a>
