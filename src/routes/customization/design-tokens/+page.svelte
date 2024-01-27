@@ -14,11 +14,11 @@
   <h1>Design Tokens</h1>
 </ca-stage>
 
-<ca-stage spacing-top="small">
-  <p>Canapés uses design tokens to define the rough styles of the individual components.</p>
+<ca-stage spacing-top="medium">
+  <p>Canapés uses design tokens to define the rough styles of the individual components. You can find more information about the use of tokens in the individual components.</p>
 </ca-stage>
 
-<ca-stage spacing-top="small">
+<ca-stage spacing-top="medium">
   <Heading>Design Tokens</Heading>
   <table>
     <thead>
