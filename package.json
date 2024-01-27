@@ -1,7 +1,7 @@
 {
   "name": "@canapes/docs",
   "description": "Documentation for Canapés component library.",
-  "version": "0.10.4",
+  "version": "0.10.5",
   "homepage": "https://getcanapes.com",
   "author": "Timo Steinkamp",
   "license": "MIT",
@@ -26,7 +26,7 @@
     "test:unit": "vitest"
   },
   "dependencies": {
-    "@canapes/canapes": "0.10.4"
+    "@canapes/canapes": "0.10.5"
   },
   "devDependencies": {
     "@playwright/test": "^1.28.1",
