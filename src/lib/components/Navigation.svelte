@@ -46,7 +46,7 @@
           <a href="/customization/color-schemes" class="navigation__link" class:active={$page.url.pathname === '/customization/color-schemes'}>Color Schemes</a>
         </li>
         <li class="navigation__item">
-          <a href="/" class="navigation__link" class:active={$page.url.pathname === '/customization/custom-styles'}>Custom Styles</a>
+          <a href="/customization/custom-styles" class="navigation__link" class:active={$page.url.pathname === '/customization/custom-styles'}>Custom Styles</a>
         </li>
       </ul>
     </div>
