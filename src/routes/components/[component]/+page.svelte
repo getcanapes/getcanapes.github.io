@@ -154,7 +154,7 @@
   </ca-stage>
 {/if}
 
-{#if data.documentation?.designToken}
+{#if data.documentation?.designTokens}
   <ca-stage spacing-top="large">
     <Heading>Design Token</Heading>
     <table>
@@ -166,7 +166,7 @@
         </tr>
       </thead>
       <tbody>
-        {#each data.documentation.designToken as designToken}
+        {#each data.documentation.designTokens as designToken}
           <tr>
             <td><code>{designToken.name}</code></td>
             <td>{@html designToken.description}</td>
