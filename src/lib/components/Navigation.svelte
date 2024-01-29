@@ -72,6 +72,9 @@
           <a href="/components/icon" class="navigation__link" class:active={$page.url.pathname === '/components/icon'}>Icon</a>
         </li>
         <li class="navigation__item">
+          <a href="/components/notification" class="navigation__link" class:active={$page.url.pathname === '/components/notification'}>Notification</a>
+        </li>
+        <li class="navigation__item">
           <a href="/components/progress-bar" class="navigation__link" class:active={$page.url.pathname === '/components/progress-bar'}>Progress Bar</a>
         </li>
         <li class="navigation__item">
