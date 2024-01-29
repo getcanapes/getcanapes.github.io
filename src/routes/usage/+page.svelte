@@ -64,7 +64,7 @@
 </ca-stage>
 
 <ca-stage>
-  <p>Some components send events to which you can react. The Notification for example sends an event after hiding itself. To use this, you must first create a component:</p>
+  <p>Some components send events to which you can react. The <a href="/components/notification">Notification</a> for example sends an event after hiding itself. To use this, you must first create a component:</p>
   <code>
     &lt;ca-notification duration="3000"&gt;<br>
     &nbsp;&nbsp;Hello, Canapés!<br>
