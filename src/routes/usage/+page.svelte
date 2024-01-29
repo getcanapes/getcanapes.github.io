@@ -59,6 +59,30 @@
   </code>
 </ca-stage>
 
+<ca-stage spacing-top="medium">
+  <Heading>Events</Heading>
+</ca-stage>
+
+<ca-stage>
+  <p>Some components send events to which you can react. The <a href="/components/notification">Notification</a> for example send an event after hiding itself. To use this, you must first create a component:</p>
+  <code>
+    &lt;ca-notification duration="3000"&gt;<br>
+    &nbsp;&nbsp;Hello, Canapés!<br>
+    &lt;/ca-notification&gt;
+  </code>
+  <p>You can then react to the event using the EventListener. This is a common <a href="https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent" target="_blank">CustomEvent</a> and you can listen to it like any other javascript event:</p>
+  <code>
+    &lt;script&gt;<br>
+    &nbsp;&nbsp;const notification = document.querySelector('ca-notification')<br>
+    <br>
+    &nbsp;&nbsp;notification.addEventListener('ca-after-hide', () =&gt; &#x7B;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;// Do something special<br>
+    &nbsp;&nbsp;&#x7D;)<br>
+    &lt;/script&gt;
+  </code>
+  <p>You can find out more about the events of the respective component on its documentation page.</p>
+</ca-stage>
+
 <style>
   code {
     font-size: var(--font-size-tiny);
