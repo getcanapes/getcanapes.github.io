@@ -13,11 +13,11 @@
   </div>
   <div class="navigation__body">
     <div class="navigation__buttons">
-      <ca-button href="https://github.com/getcanapes/canapes" target="_blank" color-scheme="unobtrusive">
+      <ca-button href="https://github.com/getcanapes/canapes" target="_blank" color-scheme="unobtrusive" size="small">
         <ca-icon slot="prefix" name="github"></ca-icon>
         Code
       </ca-button>
-      <ca-button href="https://www.npmjs.com/package/@canapes/canapes" target="_blank" color-scheme="unobtrusive">
+      <ca-button href="https://www.npmjs.com/package/@canapes/canapes" target="_blank" color-scheme="unobtrusive" size="small">
         <ca-icon slot="prefix" name="box"></ca-icon>
         NPM
       </ca-button>
@@ -134,12 +134,8 @@
     margin-left: var(--spacing);
   }
 
-  .navigation__buttons ca-button {
-    --border-radius: var(--border-radius-small);
-    --font-size: var(--font-size-tiny);
-    --font-weight: var(--font-weight);
-    --padding: var(--spacing-tiny) var(--spacing-tiny) var(--spacing-tiny) var(--spacing);
-    --prefix-margin: var(--spacing-small);
+  .navigation__buttons ca-button::part(prefix) {
+    margin-left: var(--spacing-small);
   }
 
   .navigation__buttons ca-button:not(:first-child) {
