@@ -101,6 +101,28 @@
   </ca-stage>
 {/if}
 
+{#if data.documentation?.events}
+  <ca-stage spacing-top="large">
+    <Heading>Events</Heading>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {#each data.documentation.events as event}
+          <tr>
+            <td><code>{event.name}</code></td>
+            <td>{@html event.description}</td>
+          </tr>
+        {/each}
+      </tbody>
+    </table>
+  </ca-stage>
+{/if}
+
 {#if data.documentation?.shadowParts}
 <ca-stage spacing-top="large">
   <Heading>CSS Parts</Heading>
