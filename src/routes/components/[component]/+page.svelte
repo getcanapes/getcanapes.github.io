@@ -55,7 +55,7 @@
         {#each data.documentation.attributes as attribute}
         <tr>
           <td><code>{attribute.name}</code></td>
-          <td>{attribute.description}</td>
+          <td>{@html attribute.description}</td>
           <td>
             {#if typeof attribute.type === 'object'}
               {attribute.type.join(' | ')}
