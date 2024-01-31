@@ -6,6 +6,7 @@
   import '@canapes/canapes/lib/components/button/button.js'
   import '@canapes/canapes/lib/components/details/details.js'
   import '@canapes/canapes/lib/components/icon/icon.js'
+  import '@canapes/canapes/lib/components/icon-button/icon-button.js'
   import '@canapes/canapes/lib/components/notification/notification.js'
   import '@canapes/canapes/lib/components/progress-bar/progress-bar.js'
   import '@canapes/canapes/lib/components/relative-time/relative-time.js'
