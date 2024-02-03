@@ -5,6 +5,7 @@
   import '@canapes/canapes/lib/components/breadcrumb-item/breadcrumb-item.js'
   import '@canapes/canapes/lib/components/button/button.js'
   import '@canapes/canapes/lib/components/details/details.js'
+  import '@canapes/canapes/lib/components/grid/grid.js'
   import '@canapes/canapes/lib/components/icon/icon.js'
   import '@canapes/canapes/lib/components/icon-button/icon-button.js'
   import '@canapes/canapes/lib/components/notification/notification.js'

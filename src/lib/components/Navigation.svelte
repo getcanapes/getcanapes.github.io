@@ -69,6 +69,9 @@
           <a href="/components/details" class="navigation__link" class:active={$page.url.pathname === '/components/details'}>Details</a>
         </li>
         <li class="navigation__item">
+          <a href="/components/grid" class="navigation__link" class:active={$page.url.pathname === '/components/grid'}>Grid</a>
+        </li>
+        <li class="navigation__item">
           <a href="/components/icon" class="navigation__link" class:active={$page.url.pathname === '/components/icon'}>Icon</a>
         </li>
         <li class="navigation__item">
