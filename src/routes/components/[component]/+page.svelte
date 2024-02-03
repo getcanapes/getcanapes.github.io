@@ -1,19 +1,6 @@
 <script lang="ts">
   import type { PageData } from './$types';
-  import '@canapes/canapes/lib/components/badge/badge.js'
-  import '@canapes/canapes/lib/components/breadcrumb/breadcrumb.js'
-  import '@canapes/canapes/lib/components/breadcrumb-item/breadcrumb-item.js'
-  import '@canapes/canapes/lib/components/button/button.js'
-  import '@canapes/canapes/lib/components/details/details.js'
-  import '@canapes/canapes/lib/components/grid/grid.js'
-  import '@canapes/canapes/lib/components/icon/icon.js'
-  import '@canapes/canapes/lib/components/icon-button/icon-button.js'
-  import '@canapes/canapes/lib/components/notification/notification.js'
-  import '@canapes/canapes/lib/components/progress-bar/progress-bar.js'
-  import '@canapes/canapes/lib/components/relative-time/relative-time.js'
-  import '@canapes/canapes/lib/components/shortened-text/shortened-text.js'
-  import '@canapes/canapes/lib/components/skeleton/skeleton.js'
-  import '@canapes/canapes/lib/components/stage/stage.js'
+  import '@canapes/canapes/lib/canapes.js'
   
   import Heading from '$lib/components/Heading.svelte'
   import ComponentHeader from '$lib/components/ComponentHeader.svelte'
