@@ -19,6 +19,23 @@ const config = {
       strict: true
     }),
     prerender: {
+      entries: [
+        '/components/badge',
+        '/components/breadcrumb',
+        '/components/breadcrumb-item',
+        '/components/button',
+        '/components/details',
+        '/components/grid',
+        '/components/icon',
+        '/components/icon-button',
+        '/components/notification',
+        '/components/progress-bar',
+        '/components/qr-code',
+        '/components/relative-time',
+        '/components/shortened-text',
+        '/components/skeleton',
+        '/components/stage'
+      ],
       handleHttpError: ({path, _referrer, message}) => {
         if (path === '/404') {
           return
