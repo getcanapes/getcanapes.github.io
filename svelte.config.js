@@ -20,6 +20,12 @@ const config = {
     }),
     prerender: {
       entries: [
+        '/',
+        '/installation',
+        '/usage',
+        '/customization/design-tokens',
+        '/customization/color-schemes',
+        '/customization/custom-styles',
         '/components/badge',
         '/components/breadcrumb',
         '/components/breadcrumb-item',
@@ -34,7 +40,9 @@ const config = {
         '/components/relative-time',
         '/components/shortened-text',
         '/components/skeleton',
-        '/components/stage'
+        '/components/stage',
+        '/imprint',
+        '/privacy'
       ],
       handleHttpError: ({path, _referrer, message}) => {
         if (path === '/404') {
