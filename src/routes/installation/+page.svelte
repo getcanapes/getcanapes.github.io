@@ -55,6 +55,7 @@
     &nbsp;&nbsp;import '@canapes/canapes/lib/components/badge/badge.js'<br>
     &lt;/script&gt;<br>
   </code>
+  <p>Please remember that Canapés is a front-end library. If you are using a JavaScript framework with server-side rendering, you should integrate some components only on the client side. The <a href="/components/qr-code">QrCode</a> component, for example, uses the HTML canvas element to draw the qr code - and this element is not available on the server side.</p>
 </ca-stage>
 
 <style>
