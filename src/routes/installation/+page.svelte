@@ -25,17 +25,17 @@
 <ca-stage>
   <p>The easiest way to use Canapés and get started right away is to integrate it via a script in the HTML markup. Simply copy the following code into your HTML <i>&lt;head&gt;</i> to import all components:</p>
   <code>
-    &lt;script type="module" src="https://unpkg.com/@canapes/canapes/modules/canapes.js"&gt;&lt;/script&gt;
+    &lt;script type="module" src="https://cdn.jsdelivr.net/npm/@canapes/canapes/modules/canapes.js"&gt;&lt;/script&gt;
   </code>
   <p>You can also define a specific version:</p>
   <code>
-    &lt;script type="module" src="https://unpkg.com/@canapes/canapes@{ pkg.version }/modules/canapes.js"&gt;&lt;/script&gt;
+    &lt;script type="module" src="https://cdn.jsdelivr.net/npm/@canapes/canapes@{ pkg.version }/modules/canapes.js"&gt;&lt;/script&gt;
   </code>
   <p>Or just import a single component:</p>
   <code>
-    &lt;script type="module" src="https://unpkg.com/@canapes/canapes@{ pkg.version }/modules/components/badge/badge.js"&gt;&lt;/script&gt;
+    &lt;script type="module" src="https://cdn.jsdelivr.net/npm/@canapes/canapes@{ pkg.version }/modules/components/badge/badge.js"&gt;&lt;/script&gt;
   </code>
-  <p>In a professional project, it is advisable not to reference the files via <a href="https://unpkg.com" target="_blank">unpkg.com</a>, but to store them on your own server. Simply copy the Canapés <i>modules</i> folder and change the <i>src</i> in your import statement.</p>
+  <p>In a professional project, it is advisable not to reference the files via <a href="https://www.jsdelivr.net" target="_blank">jsdelivr.com</a>, but to store them on your own server. Simply copy the Canapés <i>modules</i> folder and change the <i>src</i> in your import statement.</p>
 </ca-stage>
 
 <ca-stage spacing-top="medium">
