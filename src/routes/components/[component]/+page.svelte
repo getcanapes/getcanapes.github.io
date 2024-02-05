@@ -193,7 +193,7 @@
 {#if data.documentation?.dependencies}
   <ca-stage spacing-top="large">
     <Heading>Dependencies</Heading>
-    <p>This component has the following components as a dependency:</p>
+    <p>This component automatically imports the following dependencies:</p>
     <ul>
       {#each data.documentation.dependencies as dependency}
         <li>&lt;{dependency}&gt;</li>
