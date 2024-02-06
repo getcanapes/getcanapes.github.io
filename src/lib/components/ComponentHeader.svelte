@@ -13,7 +13,7 @@
     <ca-badge pill color-scheme="warning">Experimental</ca-badge>
   {/if}
   <div class="summary">
-    <p>{ documentation?.summary }</p>
+    <p>{@html documentation?.summary }</p>
   </div>
   {#if documentation.description}
     <div class="description">
