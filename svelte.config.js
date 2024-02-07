@@ -41,6 +41,7 @@ const config = {
         '/components/shortened-text',
         '/components/skeleton',
         '/components/stage',
+        '/components/tooltip',
         '/imprint',
         '/privacy'
       ],
