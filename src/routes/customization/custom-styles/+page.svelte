@@ -22,10 +22,28 @@
 </ca-stage>
 
 <ca-stage spacing-top="medium">
+  <Heading>Styling with Custom Properties</Heading>
+</ca-stage>
+
+<ca-stage spacing-top="tiny">
+  <p>Some components offer custom properties to easily change the main styles. Here is an example of how you can style a component with these properties:</p>
+  <code>
+    &lt;ca-button&gt;Foo&lt;/ca-button&gt;<br>
+    <br>
+    &lt;style&gt;<br>
+    &nbsp;&nbsp;ca-button &#x7B;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--disabled-opacity: 0.8;<br>
+    &nbsp;&nbsp;&#x7D;<br>
+    &lt;/style&gt;<br>
+  </code>
+  <p>For more information about custom properties and their behavior in the component context, see the component`s documentation page.</p>
+</ca-stage>
+
+<ca-stage spacing-top="medium">
   <Heading>Styling with CSS Parts</Heading>
 </ca-stage>
 
-<ca-stage spacing-top="small">
+<ca-stage spacing-top="tiny">
   <p>Each component has CSS parts, which are listed in the documentation. Here is an example of how a component can be styled with the help of these parts:</p>
   <code>
     &lt;ca-button&gt;Foo&lt;/ca-button&gt;<br>
