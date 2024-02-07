@@ -98,6 +98,9 @@
         <li class="navigation__item">
           <a href="/components/stage" class="navigation__link" class:active={$page.url.pathname === '/components/stage'}>Stage</a>
         </li>
+        <li class="navigation__item">
+          <a href="/components/tooltip" class="navigation__link" class:active={$page.url.pathname === '/components/tooltip'}>Tooltip</a>
+        </li>
       </ul>
     </div>
   </div>
