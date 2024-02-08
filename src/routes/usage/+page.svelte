@@ -85,6 +85,7 @@
 
 <style>
   code {
+    display: block;
     font-size: var(--font-size-tiny);
     padding: var(--spacing);
     margin: var(--spacing) 0 var(--spacing-large);
