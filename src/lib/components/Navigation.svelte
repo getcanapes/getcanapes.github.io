@@ -146,10 +146,6 @@
     margin-left: var(--spacing);
   }
 
-  .navigation__buttons ca-button::part(prefix) {
-    margin-left: var(--spacing-small);
-  }
-
   .navigation__buttons ca-button:not(:first-child) {
     margin-left: var(--spacing-small);
   }
