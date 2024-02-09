@@ -25,11 +25,11 @@
   <p>Color schemes are defined as css variables. They need a <i>--ca</i> prefix, the <i>color-scheme</i> keyword, a name and a property. Here is an example of a color scheme called "success":</p>
   <code>
     &lt;style&gt;<br>
-    &nbsp;&nbsp;--ca-color-scheme-success-background-color: green;<br>
-    &nbsp;&nbsp;--ca-color-scheme-success-border-color: green;<br>
-    &nbsp;&nbsp;--ca-color-scheme-success-color: white;<br>
+    &nbsp;&nbsp;--ca-color-scheme-success-color: green;<br>
+    &nbsp;&nbsp;--ca-color-scheme-success-contrary: white;<br>
     &lt;/style&gt;<br>
   </code>
+  <p>In most cases, the <i>color</i> is used as a background color, the <i>contrary</i> as text color.</p>
 </ca-stage>
 
 <ca-stage spacing-top="medium">
