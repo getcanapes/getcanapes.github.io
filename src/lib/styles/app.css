@@ -50,17 +50,14 @@
   --navigation-width: 260px;
 
   /** Canapes color schemes */
-  --ca-color-scheme-success-background: var(--color-success);
-  --ca-color-scheme-success-color: var(--color-text-light);
-  --ca-color-scheme-success-border-color: var(--color-success);
+  --ca-color-scheme-success-color: var(--color-success);
+  --ca-color-scheme-success-contrary: var(--color-text-light);
 
-  --ca-color-scheme-warning-background: var(--color-warning);
-  --ca-color-scheme-warning-color: var(--color-brand);
-  --ca-color-scheme-warning-border-color: var(--color-warning);
+  --ca-color-scheme-warning-color: var(--color-warning);
+  --ca-color-scheme-warning-contrary: var(--color-brand);
 
-  --ca-color-scheme-unobtrusive-background: var(--color-light);
   --ca-color-scheme-unobtrusive-color: var(--color-text-unobtrusive);
-  --ca-color-scheme-unobtrusive-border-color: var(--color-text-unobtrusive);
+  --ca-color-scheme-unobtrusive-contrary: var(--color-light);
 }
 
 body {
