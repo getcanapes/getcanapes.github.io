@@ -99,6 +99,9 @@
           <a href="/components/skeleton" class="navigation__link" class:active={$page.url.pathname === '/components/skeleton'}>Skeleton</a>
         </li>
         <li class="navigation__item">
+          <a href="/components/spinner" class="navigation__link" class:active={$page.url.pathname === '/components/spinner'}>Spinner</a>
+        </li>
+        <li class="navigation__item">
           <a href="/components/stage" class="navigation__link" class:active={$page.url.pathname === '/components/stage'}>Stage</a>
         </li>
         <li class="navigation__item">

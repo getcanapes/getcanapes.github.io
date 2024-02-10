@@ -41,6 +41,7 @@ const config = {
         '/components/relative-time',
         '/components/shortened-text',
         '/components/skeleton',
+        '/components/spinner',
         '/components/stage',
         '/components/tooltip',
         '/imprint',
