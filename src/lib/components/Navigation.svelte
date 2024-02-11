@@ -54,6 +54,9 @@
       <h3 class="navigation__subline">Components</h3>
       <ul class="navigation__items">
         <li class="navigation__item">
+          <a href="/components/animated-image" class="navigation__link" class:active={$page.url.pathname === '/components/animated-image'}>Animated Image</a>
+        </li>
+        <li class="navigation__item">
           <a href="/components/avatar" class="navigation__link" class:active={$page.url.pathname === '/components/avatar'}>Avatar</a>
         </li>
         <li class="navigation__item">

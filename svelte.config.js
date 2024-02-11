@@ -26,6 +26,7 @@ const config = {
         '/customization/design-tokens',
         '/customization/color-schemes',
         '/customization/custom-styles',
+        '/components/animated-image',
         '/components/avatar',
         '/components/badge',
         '/components/breadcrumb',
