@@ -31,6 +31,7 @@ const config = {
         '/components/breadcrumb',
         '/components/breadcrumb-item',
         '/components/button',
+        '/components/button-group',
         '/components/details',
         '/components/grid',
         '/components/icon',

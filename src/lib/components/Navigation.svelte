@@ -69,6 +69,9 @@
           <a href="/components/button" class="navigation__link" class:active={$page.url.pathname === '/components/button'}>Button</a>
         </li>
         <li class="navigation__item">
+          <a href="/components/button-group" class="navigation__link" class:active={$page.url.pathname === '/components/button-group'}>Button Group</a>
+        </li>
+        <li class="navigation__item">
           <a href="/components/details" class="navigation__link" class:active={$page.url.pathname === '/components/details'}>Details</a>
         </li>
         <li class="navigation__item">
