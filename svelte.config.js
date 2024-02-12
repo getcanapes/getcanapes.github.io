@@ -38,6 +38,7 @@ const config = {
         '/components/grid',
         '/components/icon',
         '/components/icon-button',
+        '/components/image-zoom',
         '/components/notification',
         '/components/progress-bar',
         '/components/qr-code',

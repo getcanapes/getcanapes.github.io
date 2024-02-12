@@ -90,6 +90,9 @@
           <a href="/components/icon-button" class="navigation__link" class:active={$page.url.pathname === '/components/icon-button'}>Icon Button</a>
         </li>
         <li class="navigation__item">
+          <a href="/components/image-zoom" class="navigation__link" class:active={$page.url.pathname === '/components/image-zoom'}>Image Zoom</a>
+        </li>
+        <li class="navigation__item">
           <a href="/components/notification" class="navigation__link" class:active={$page.url.pathname === '/components/notification'}>Notification</a>
         </li>
         <li class="navigation__item">
