@@ -33,6 +33,7 @@ const config = {
         '/components/breadcrumb-item',
         '/components/button',
         '/components/button-group',
+        '/components/copy-button',
         '/components/details',
         '/components/grid',
         '/components/icon',
