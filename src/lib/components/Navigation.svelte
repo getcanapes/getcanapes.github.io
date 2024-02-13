@@ -117,6 +117,15 @@
           <a href="/components/stage" class="navigation__link" class:active={$page.url.pathname === '/components/stage'}>Stage</a>
         </li>
         <li class="navigation__item">
+          <a href="/components/tab" class="navigation__link" class:active={$page.url.pathname === '/components/tab'}>Tab</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/components/tab-panel" class="navigation__link" class:active={$page.url.pathname === '/components/tab-panel'}>Tab Panel</a>
+        </li>
+        <li class="navigation__item">
+          <a href="/components/tabs" class="navigation__link" class:active={$page.url.pathname === '/components/tabs'}>Tabs</a>
+        </li>
+        <li class="navigation__item">
           <a href="/components/tooltip" class="navigation__link" class:active={$page.url.pathname === '/components/tooltip'}>Tooltip</a>
         </li>
       </ul>

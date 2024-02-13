@@ -47,6 +47,9 @@ const config = {
         '/components/skeleton',
         '/components/spinner',
         '/components/stage',
+        '/components/tab',
+        '/components/tab-panel',
+        '/components/tabs',
         '/components/tooltip',
         '/imprint',
         '/privacy'
