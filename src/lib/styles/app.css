@@ -56,6 +56,9 @@
   --ca-color-scheme-warning-color: var(--color-warning);
   --ca-color-scheme-warning-contrary: var(--color-brand);
 
+  --ca-color-scheme-deprecation-color: white;
+  --ca-color-scheme-deprecation-contrary: var(--color-brand);
+
   --ca-color-scheme-unobtrusive-color: var(--color-text-unobtrusive);
   --ca-color-scheme-unobtrusive-contrary: var(--color-light);
 }

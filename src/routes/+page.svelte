@@ -27,7 +27,6 @@
 				<li>Built with accessibility in mind</li>
 				<li>Open source</li>
 			</ul>
-			<ca-notification color-scheme="unobtrusive" class="wip-notification">This library is still under development. Please be careful, especially when updating to a newer version.</ca-notification>
 		</div>
 		<div slot="b">
 			<img src="/assets/images/wip.jpeg" alt="Work in progress." class="wip-image" />
@@ -51,11 +50,6 @@
 
 	.advantages li {
 		padding: var(--spacing-tiny) 0;
-	}
-
-	.wip-notification {
-		display: block;
-		margin: var(--spacing-large) var(--spacing-large) 0 0;
 	}
 
 	.wip-image {
