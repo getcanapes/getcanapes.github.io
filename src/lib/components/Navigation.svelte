@@ -13,9 +13,6 @@
   </div>
   <div class="navigation__body">
     <div class="navigation__buttons">
-      <ca-button href="https://github.com/getcanapes/canapes" target="_blank" color-scheme="utility" size="small">
-        Code
-      </ca-button>
       <ca-button href="https://www.npmjs.com/package/@canapes/canapes" target="_blank" color-scheme="utility" size="small">
         NPM
       </ca-button>
