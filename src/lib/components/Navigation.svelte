@@ -12,6 +12,16 @@
     <span class="navigation__version">{ pkg.version }</span>
   </div>
   <div class="navigation__body">
+    <div class="navigation__buttons">
+      <ca-button href="https://github.com/getcanapes/canapes" target="_blank" color-scheme="unobtrusive" size="small">
+        <ca-icon slot="prefix" icon="github"></ca-icon>
+        Code
+      </ca-button>
+      <ca-button href="https://www.npmjs.com/package/@canapes/canapes" target="_blank" color-scheme="unobtrusive" size="small">
+        <ca-icon slot="prefix" icon="box"></ca-icon>
+        NPM
+      </ca-button>
+    </div>
     <div class="navigation__section">
       <h3 class="navigation__subline">Getting Started</h3>
       <ul class="navigation__items">
@@ -159,6 +169,10 @@
     font-size: var(--font-size-tiny);
     margin-left: var(--spacing);
   }
+
+  .navigation__buttons ca-button:not(:first-child) {
+     margin-left: var(--spacing-small);
+   }
 
   .navigation__body {
     display: flex;
