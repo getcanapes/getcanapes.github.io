@@ -1,15 +1,15 @@
 :root {
   /** Color palette */
-  --color-brand: rgb(190, 52, 85);
+  --color-brand: hsl(346 57% 47.5%);
   --color-link: var(--color-brand);
   --color-text: rgb(26, 26, 36);
-  --color-text-unobtrusive: #b7a990;
+  --color-text-utility: hsl(255, 6%, 55%);
   --color-background: rgb(255, 255, 255);
   --color-border: #c6d1dd;
   --color-light: #ffffff;
 
   --color-success: #b4b5a5;
-  --color-warning: #efd1c6;
+  --color-warning: hsl(346 57% 90%);
   --color-code: #f7f7f7;
 
   /** Fonts */
@@ -56,11 +56,11 @@
   --ca-color-scheme-warning-color: var(--color-warning);
   --ca-color-scheme-warning-contrary: var(--color-brand);
 
-  --ca-color-scheme-deprecation-color: white;
-  --ca-color-scheme-deprecation-contrary: var(--color-brand);
+  --ca-color-scheme-deprecation-color: var(--color-brand);
+  --ca-color-scheme-deprecation-contrary: var(--color-warning);
 
-  --ca-color-scheme-unobtrusive-color: var(--color-text-unobtrusive);
-  --ca-color-scheme-unobtrusive-contrary: var(--color-light);
+  --ca-color-scheme-utility-color: var(--color-text-utility);
+  --ca-color-scheme-utility-contrary: var(--color-light);
 }
 
 body {

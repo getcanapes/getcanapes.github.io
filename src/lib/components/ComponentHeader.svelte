@@ -30,7 +30,7 @@
   }
 
   .tag {
-    color: var(--color-text-unobtrusive);
+    color: var(--color-text-utility);
     font-size: var(--font-size-large);
     margin: var(--spacing) 0;
   }

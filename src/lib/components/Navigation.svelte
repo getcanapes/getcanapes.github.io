@@ -13,11 +13,11 @@
   </div>
   <div class="navigation__body">
     <div class="navigation__buttons">
-      <ca-button href="https://github.com/getcanapes/canapes" target="_blank" color-scheme="unobtrusive" size="small">
+      <ca-button href="https://github.com/getcanapes/canapes" target="_blank" color-scheme="utility" size="small">
         <ca-icon slot="prefix" icon="github"></ca-icon>
         Code
       </ca-button>
-      <ca-button href="https://www.npmjs.com/package/@canapes/canapes" target="_blank" color-scheme="unobtrusive" size="small">
+      <ca-button href="https://www.npmjs.com/package/@canapes/canapes" target="_blank" color-scheme="utility" size="small">
         <ca-icon slot="prefix" icon="box"></ca-icon>
         NPM
       </ca-button>
@@ -165,7 +165,7 @@
   }
 
   .navigation__version {
-    color: var(--color-text-unobtrusive);
+    color: var(--color-text-utility);
     font-size: var(--font-size-tiny);
     margin-left: var(--spacing);
   }
