@@ -25,13 +25,14 @@
 <style>
   h1 {
     font-size: var(--font-size-huge);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight);
     line-height: 1;
   }
 
   .tag {
     color: var(--color-text-utility);
     font-size: var(--font-size-large);
+    font-weight: var(--font-weight-light);
     margin: var(--spacing) 0;
   }
 
