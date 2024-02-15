@@ -25,7 +25,6 @@
 				<li>Fully customizable styles</li>
 				<li>Machine-readable documentation</li>
 				<li>Built with accessibility in mind</li>
-				<li>Open source</li>
 			</ul>
 			<ca-notification color-scheme="deprecation" class="wip-notification">This library is still under development. Please be careful, especially when updating to a newer version.</ca-notification>
 		</div>
