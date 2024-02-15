@@ -5,13 +5,13 @@
 </script>
 
 <svelte:head>
-	<title>Canapés · Reliable web components for everyday use.</title>
+	<title>Canapés · Reliable Web Components for everyday use.</title>
 	<meta name="description" content="Reliable web components for everyday use.">
 </svelte:head>
 
 <ca-stage>
 	<h1 class="headline">Canapés</h1>
-	<p class="subline">Reliable web components for everyday use.</p>
+	<p class="subline">Reliable Web Components for everyday use.</p>
 </ca-stage>
 
 <ca-stage spacing-top="small">
