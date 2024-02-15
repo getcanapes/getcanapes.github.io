@@ -12,11 +12,6 @@
     <span class="navigation__version">{ pkg.version }</span>
   </div>
   <div class="navigation__body">
-    <div class="navigation__buttons">
-      <ca-button href="https://www.npmjs.com/package/@canapes/canapes" target="_blank" color-scheme="utility" size="small">
-        NPM
-      </ca-button>
-    </div>
     <div class="navigation__section">
       <h3 class="navigation__subline">Getting Started</h3>
       <ul class="navigation__items">
@@ -147,7 +142,7 @@
     align-items: flex-end;
     display: flex;
     justify-content: flex-start;
-    margin: var(--spacing) 0 0;
+    margin: var(--spacing) 0;
     position: relative;
   }
 
@@ -164,10 +159,6 @@
     font-size: var(--font-size-tiny);
     margin-left: var(--spacing);
   }
-
-  .navigation__buttons ca-button:not(:first-child) {
-     margin-left: var(--spacing-small);
-   }
 
   .navigation__body {
     display: flex;
