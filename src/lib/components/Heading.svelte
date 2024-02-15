@@ -20,6 +20,6 @@
 
   .ph h3 {
     font-size: var(--font-size-extra-large);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight);
   }
 </style>
