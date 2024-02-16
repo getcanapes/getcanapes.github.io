@@ -9,9 +9,7 @@
     {@html documentation.examples[0].code}
   </div>
   <div class="source">
-    <code>
-      {documentation.examples[0].code}
-    </code>
+    <pre><code>{documentation.examples[0].code}</code></pre>
   </div>
 </div>
 
@@ -30,6 +28,6 @@
     background-color: var(--color-code);
     border-top: var(--border-width) var(--border-style) var(--border-color);
     font-size: var(--font-size-small);
-    padding: var(--spacing-large);
+    padding: calc(var(--spacing) * -1) var(--spacing-large) var(--spacing);
   }
 </style>
